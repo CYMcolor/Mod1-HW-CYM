@@ -6,6 +6,7 @@ The source code is a website for a company called Horiseon which promotes their 
 
 My adjustments to this code was to improve reader clarbility in the code and added the alt atttribute to images for better accessibility. A proper title was also added.
 
+Code is HTML and CSS only
 
 ## Credits
 Author: Xandromus from the Rice Coding Bootcamp
