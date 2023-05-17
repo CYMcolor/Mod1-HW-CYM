@@ -9,8 +9,11 @@ My adjustments to this code was to improve reader clarbility in the code and add
 
 ## Credits
 Author: Xandromus from the Rice Coding Bootcamp
+
 Feb 13, 2020
+
 Source code, HTML and CSS
+
 https://github.com/coding-boot-camp/urban-octo-telegram/tree/main 
 
 
