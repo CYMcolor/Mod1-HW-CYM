@@ -14,7 +14,7 @@
     <header class="header">
         <!-- The next line is the Title of the site seperated in differnt elements to have the "seo" part look grayer-->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!-- Top bar that has links to different areas on the same page-->
+        <!-- Top bar that has links to different areas on the same page usinf the ids-->
         <nav>
             <ul>
                 <li>
@@ -31,7 +31,7 @@
     </header>
     <!--"hero" is the large area below the header to display an image of people in an office meeting -->
     <div class="hero"></div>
-    <!-- "content contains 3 segements related to the links in the header" -->
+    <!-- "content contains 3 segements related to the links in the nav" -->
     <main class="content">
         <section  id="search-engine-optimization" class="content-segment">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A notebook with the letters 'SEO' in the middle surrounded by related words 'Content, Backlink, Link Building, Mobile Compatability, and Social Media'" />
@@ -55,7 +55,7 @@
             </p>
         </section>
     </main>
-    <!-- "benefits it the vertical bar on the right of "contents" with 3 segments-->
+    <!-- "benefits it the vertical sidebar on the right of "contents" with 3 segments-->
     <aside class="benefits">
         <section class="benefit-segment">
             <h3>Lead Generation</h3>
@@ -80,13 +80,40 @@
         </section>
     </aside>
     <!-- "footer" is the information about the publication of the site on the bottom-->
-    <div class="footer">
+    <footer class="footer">
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
-<!-- test -->
+
+<!--  
+HTML Change Notes:
+
+	- Changed semantic <div> tags for better readability in order:
+		○ <header>
+			§ <nav> (for navigation bar)
+		○ <div> for the hero class remained the same because it was being used as a divider
+		○ <main> (this is the content area)
+			§ <section>
+		○ <aside> (for sidebar)
+			§ <section>
+		○ <footer>
+	- Added an icon in <head> so that there is an "H" in the tab on the web browser
+	- Changed title from "website" to "Horiseon" in the <head>
+	- In <main> element changed each section to have the "content-segment" class 
+		○ This makes it so that all segments can share the same css style
+	- Gave the "search-engine-optimization" section an id of the same name 
+		○ This makes it so that the nav bar can still be linked to that area
+		○ This also makes it so that the css for that specific segment can be changed easier in the future
+	- In <aside> changed each section to have a "benefit-segment" class
+		○ This makes it so that all segments can share the same css style
+	- All images were given an alt tag to describe the images being used for accessibility
+	- In the <footer> the <h2> was changed to <h4>
+		○ This is so all heading attributes fall in sequential order
+Added various comments to help reader understand how it will render on the website
+
+-->

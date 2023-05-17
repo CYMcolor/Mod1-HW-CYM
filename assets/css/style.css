@@ -26,7 +26,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/*changed div to nav to keep styles the same as before*/
+/*changed div to nav classmade comment to keep styles the same as before*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,7 +44,7 @@ body {
     margin-left: 25px;
 }
 
-/*links*/
+/*a are the links in the navigation bar*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -140,3 +140,24 @@ p {
 .footer h4 {
     font-size: 20px;
 }
+
+/*
+CSS Change Notes:
+
+	- Made comments before each class to find each class easier
+	- Changed the names to match the new names from the modified HTML document:
+		○ nav
+		○ content-segment
+		○ benefit-segment
+	- Removed multiple class code to be into one under one name
+		○ content-segment used to be:
+			§ search-engine-optimization
+			§ online-reputation-management
+			§ Social-media-marketing
+		○ benefit-segment used to be:
+			§ benefit-brand
+			§ benefit-cost
+			§ benefit-lead
+Moved the content-segment code to be after the content code 
+
+*/

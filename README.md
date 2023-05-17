@@ -11,8 +11,9 @@ My adjustments to this code was to improve reader clarbility in the code and add
 Author: Xandromus from the Rice Coding Bootcamp
 Feb 13, 2020
 Source code, HTML and CSS
- https://github.com/coding-boot-camp/urban-octo-telegram/tree/main 
+https://github.com/coding-boot-camp/urban-octo-telegram/tree/main 
 
 
-
-![mod1hwscreenshot](https://github.com/CYMcolor/Mod1-HW-CYM/assets/17074545/20923441-5f84-4c65-b505-d8f564e66251)
+## Link/Screentshot
+https://cymcolor.github.io/Mod1-HW-CYM/
+![mod1hwscreenshot.](./assets/images/mod1hwscreenshot.PNG)
